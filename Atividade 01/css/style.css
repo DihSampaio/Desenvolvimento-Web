@@ -1,0 +1,22 @@
+/* --- NAV --- */
+#nav {
+    padding: 0;
+    margin-bottom: 27px;
+}
+
+/* --- BUTTON --- */
+button {
+    margin: 7px 0px;
+}
+
+/* --- USER-IMG --- */
+#user-img, #tzeeter-img {
+    max-width: 64px;
+    border: 1.5px solid;
+    border-radius: 40px;
+}
+
+#tzeeter-img {
+    max-width: 40px;
+    margin-top: 5px;
+}
