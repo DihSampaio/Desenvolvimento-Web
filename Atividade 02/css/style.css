@@ -1,0 +1,103 @@
+
+/* --- BODY --- */
+body {
+    background-color: #FFF;
+}
+
+/* --- NAV --- */
+nav > ul {
+    padding: 0;
+    margin-bottom: 27px;
+}
+nav > ul li, .links {
+    padding: 10px 0px;
+}
+nav > ul li a, .links > a {
+    padding: 7px 10px;
+    color: rgb(15, 20, 25);
+    text-decoration: none;
+}
+nav > ul li a:hover, .links > a:hover {
+    border-radius: 20px;
+    background-color: rgba(12, 25, 20, 0.1);
+}
+
+/* --- BUTTON --- */
+button {
+    margin: 7px 0px;
+}
+
+/* --- INFORS --- */
+.infors > ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.infors > ul li {
+    padding: 0px 10px;
+    color: rgb(83, 100, 113);
+}
+.infors_links:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.infors > ul li span {
+    color: rgb(15, 20, 25);
+    font-weight: bold;
+}
+
+/* --- USER-IMG --- */
+#user-img, #tzeeter-img {
+    max-width: 64px;
+    border: 1.5px solid;
+    border-radius: 40px;
+}
+
+#tzeeter-img {
+    max-width: 40px;
+    margin-top: 5px;
+}
+
+/* --- TZEETERS --- */
+.tzeet {
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+.tzeet > div {
+    margin-top: 15px;
+}
+.tzeet > div a {
+    text-decoration: none;
+    padding: 7px 10px;
+    color: rgb(83, 100, 113);
+}
+.tzeet:hover {
+    border-radius: 5px;
+    background-color: rgba(249, 24, 128, 0.1);
+}
+
+/* --- COLORS --- */
+.primary{
+    color: rgb(15, 20, 25);
+}
+.secondary {
+    color:rgb(83, 100, 113);
+}
+.blue:hover {
+    color: rgba(29, 155, 240, 1);
+    border-radius: 20px;
+    text-decoration: underline;
+    background-color: rgba(29, 155, 240, 0.1);
+}
+.green:hover {
+    color: rgba(0, 186, 124, 1);
+    border-radius: 20px;
+    text-decoration: underline;
+    background-color: rgba(0, 186, 124, 0.1);
+}
+.pink:hover {
+    color: rgba(249, 24, 128, 1);
+    border-radius: 20px;
+    text-decoration: underline;
+    background-color: rgba(249, 24, 128, 0.1);
+}
